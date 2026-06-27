@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Muqadas Riaz Portfolio</title>
+
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">Muqadas ✿</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hello, It's <span>Muqadas Riaz</span></h1>
+        <h3>I am <span id="typing-text"></span></h3>
+
+        <p class="quote">
+            "Turning ideas into beautiful digital experiences ✨"
+        </p>
+
+        <p>
+            I’m a passionate web developer specializing in building
+            full-stack websites using Laravel, PHP, React, and modern
+            web technologies.
+        </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/Mickey1422" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/muqadas-riaz" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.instagram.com/mickey_jan76/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+
+        <div class="btn-group">
+            <a href="#" class="btn">Hire Me</a>
+            <a href="#contact" class="btn secondary">Contact</a>
+        </div>
+    </div>
+
+    <div class="home-image">
+        <img src="profile.jpeg" alt="Profile Image">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+
+        <p>
+            I am a creative web developer who loves designing elegant
+            and functional websites. My goal is to combine beauty with
+            performance.
+        </p>
+
+        <div class="skills-box">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5 / CSS3</li>
+                <li>JavaScript</li>
+                <li>PHP / Laravel</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>MySQL / MongoDB</li>
+            </ul>
+        </div>
+
+        <div class="skills-box">
+            <h3>Education</h3>
+            <ul>
+                <li>Matric Pre-Medical (2020)</li>
+                <li>FSc Pre-Engineering (2022)</li>
+                <li>BSc Software Engineering (2026)</li>
+            </ul>
+        </div>
+
+        <div class="skills-box">
+            <h3>Experience</h3>
+            <ul>
+                <li>Web Developer (2023 - Present)</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+
+    <div class="services-container">
+
+        <div class="service-box">
+            <h3>Responsive Web Design</h3>
+            <p>Building websites that adapt smoothly across all devices with a modern and user-friendly experience.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>HTML / CSS / JavaScript</h3>
+            <p>Creating clean, responsive, and interactive web pages using core frontend technologies.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>React.js Development</h3>
+            <p>Developing dynamic and high-performance frontend interfaces with reusable components.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Node.js Development</h3>
+            <p>Building scalable backend systems and APIs for modern web applications.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>MySQL / MongoDB</h3>
+            <p>Designing and managing databases efficiently with secure and optimized data handling.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>PHP / Laravel</h3>
+            <p>Creating secure, scalable, and professional web applications with clean backend architecture.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="https://api.w3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="w3f_00b0bad9babe79e22a9caf6e06a225c87f74203246ecb1b6">
+
+         <!-- Redirect back -->
+        <input type="hidden" name="redirect" value="Portfolio.html">
+
+        <input type="text" name="name" placeholder="Full Name" required>
+
+        <input type="email" name="email" placeholder="Email Address" required>
+
+        <textarea name="message" rows="8" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+    </form>
+</section>
+
+<footer class="footer">
+    <p>Muqadas Riaz © 2026 | All Rights Reserved</p>
+</footer>
+
+<script src="Portfolio.js"></script>
+</body>
+</html>
